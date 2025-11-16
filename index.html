@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Guggu Malkin Land — Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  <style>
+    .hero{background:linear-gradient(180deg, rgba(30,143,62,0.06), rgba(30,143,62,0.02)), url('IMG_4304_Original.jpeg') center/cover no-repeat; min-height:65vh; display:flex; align-items:center; color:var(--text);}
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html" id="site-title">Guggu Malkin Land</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navmenu">
+      <ul class="navbar-nav ms-auto align-items-lg-center">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="lands.html">All Lands</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="locationsDropdown" role="button" data-bs-toggle="dropdown">Locations</a>
+          <ul class="dropdown-menu" aria-labelledby="locationsDropdown">
+            <li><a class="dropdown-item" href="lucknow.html">Lucknow</a></li>
+            <li><a class="dropdown-item" href="gkp.html">Gorakhpur (GKP)</a></li>
+            <li><a class="dropdown-item" href="deoria.html">Deoria</a></li>
+            <li><a class="dropdown-item" href="barhaj.html">Barhaj</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item ms-2"><a class="btn btn-sm btn-accent" href="https://wa.me/918467033068">WhatsApp</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="container text-center">
+    <h1 class="display-5 header-brand">Guggu Malkin Land</h1>
+    <p class="lead">Verified land plots — Lucknow, GKP, Deoria & Barhaj</p>
+    <a class="btn btn-accent btn-lg" href="lands.html">View Available Plots</a>
+    <button class="btn btn-outline-secondary btn-sm ms-2" onclick="toggleTheme()">Toggle Premium Theme</button>
+  </div>
+</section>
+<section class="py-5">
+  <div class="container">
+    <div class="row" style="display:flex;gap:16px;flex-wrap:wrap;">
+      <div style="flex:1;min-width:240px;padding:16px;border-radius:8px;border:1px solid rgba(0,0,0,0.06);">
+        <h5>Verified Titles</h5>
+        <p class="small">Clear paperwork and road access.</p>
+      </div>
+      <div style="flex:1;min-width:240px;padding:16px;border-radius:8px;border:1px solid rgba(0,0,0,0.06);">
+        <h5>Flexible Payments</h5>
+        <p class="small">Installments available — contact on WhatsApp.</p>
+      </div>
+      <div style="flex:1;min-width:240px;padding:16px;border-radius:8px;border:1px solid rgba(0,0,0,0.06);">
+        <h5>Prime Locations</h5>
+        <p class="small">Near roads, utilities and upcoming neighbourhoods.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pb-5">
+  <div class="container">
+    <h3 class="mb-3">Featured Plot — Barhaj</h3>
+    <div style="display:flex;gap:16px;flex-wrap:wrap;">
+      <div style="flex:1;min-width:300px;">
+        <div class="card property-card shadow-sm">
+          <img src="IMG_4304_Original.jpeg" class="card-img-top" alt="plot">
+          <div style="padding:12px;">
+            <h5>Prime Plot in Barhaj</h5>
+            <p class="small" style="color:gray">Size: 2000 sq.ft · Road access · Water & Electricity</p>
+            <a class="btn btn-accent" href="barhaj-plot.html">View Details</a>
+            <a class="btn btn-outline-success ms-2" href="https://wa.me/918467033068?text=I%20am%20interested%20in%20the%20Barhaj%20plot">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+      <div style="flex:1;min-width:300px;">
+        <h5>Why buy from us?</h5>
+        <ul>
+          <li>Trusted local seller</li>
+          <li>Fair pricing</li>
+          <li>Site visits available</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer style="background:#042; color:#dff; padding:20px 0; margin-top:20px;">
+  <div class="container" style="text-align:center;">
+    <p style="margin:0">© 2025 Guggu Malkin Land — WhatsApp: <a href="https://wa.me/918467033068" style="color:#cff">+91 84670 33068</a></p>
+  </div>
+</footer>
+
+<a class="whatsapp-floating" href="https://wa.me/918467033068" target="_blank" rel="noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="wa" width="44"></a>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="theme.js"></script>
+</body>
+</html>
